@@ -6,7 +6,7 @@
 
 
 ## Introduction
-![Arch](.github/arch.png)
+![Arch](.gti/1.jpg)
 - Lane detection is a pivotal component in automated and assisted driving systems. Lane markings, akin to traffic signs in providing advanced semantic information, present challenges for traditional methods.  Despite incorporating some semantic fusion, these methods encounter limitations in fine-grained feature extraction. This constraint impedes the capture of essential features, including lane shape and position, especially in complex environments. To capture more profound features, this paper introduces an innovative model utilizing replicated feature enhancement strategies to improve the accuracy and robustness of lane detection. The proposed model accomplishes adaptive optimization of region of interest representation via a multi-scale fusion network. Subsequently, it refines feature representation using a combination of dilated convolutions and attention mechanisms. In conclusion, experiments conducted on CuLane and Tusimple datasets demonstrate the superiority of our proposed method in terms of both accuracy and robustness in lane detection. Across a range of evaluation metrics, our model consistently outperforms the state-of-the-art methods. Notably, our model attains an impressive F1 score of 80.60\% on the Culane dataset, a substantial improvement over the performance of the 12 mainstream algorithms included in the evaluation. Across tests encompassing 8 challenging scenarios, the model exhibited its optimal performance in a diverse range of situations. The outcomes of this study are anticipated to provide valuable insights for addressing lane detection challenges in both automated driving and assisted driving systems.
 
 ## Installation
